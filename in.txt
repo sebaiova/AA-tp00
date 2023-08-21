@@ -1,0 +1,12 @@
+Aqui vas a utlizar las clases Ejemplo1InOut.java y Ejemplo2randomInts.java
+1. Utilizando un archivo de entrada que contenga un texto con varias palabras y varias l´ıneas de
+texto y uno o m´as espacios en blanco entre ellas, generar sinEspacios.txt con el mismo texto
+pero eliminando todos los espacios en blanco.
+2. Con el mismo archivo de entrada, generar el archivo lineasImpares.txt con s´olo las l´ıneas
+impares del texto.
+3. Generar un archivo de texto que contenga 100 n´umeros reales (double o float) generados
+aleatoriamente con valores entre -100 y 100.
+4. Generar un archivo de texto con cadenas aleatorias de 10 caracteres alfanum´ericos (0-9, a-z,
+A-Z).
+5. Generar un archivo con n´umeros aleatorios de los n´umeros del 1 al 1000 sin que los elementos
+se repitan.

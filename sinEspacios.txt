@@ -1,0 +1,12 @@
+AquivasautlizarlasclasesEjemplo1InOut.javayEjemplo2randomInts.java
+1.Utilizandounarchivodeentradaquecontengauntextoconvariaspalabrasyvariasl´ıneasde
+textoyunoom´asespaciosenblancoentreellas,generarsinEspacios.txtconelmismotexto
+peroeliminandotodoslosespaciosenblanco.
+2.Conelmismoarchivodeentrada,generarelarchivolineasImpares.txtcons´ololasl´ıneas
+imparesdeltexto.
+3.Generarunarchivodetextoquecontenga100n´umerosreales(doubleofloat)generados
+aleatoriamenteconvaloresentre-100y100.
+4.Generarunarchivodetextoconcadenasaleatoriasde10caracteresalfanum´ericos(0-9,a-z,
+A-Z).
+5.Generarunarchivoconn´umerosaleatoriosdelosn´umerosdel1al1000sinqueloselementos
+serepitan.
