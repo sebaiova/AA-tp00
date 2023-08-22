@@ -9,11 +9,20 @@ public class GeneradorPalabras {
     static private final Random random = new Random();
     static private final String Z = "0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+    /* retorna un caracter alfanumerico */
     static private char nextChar()
     {
         return Z.charAt(random.nextInt(Z.length()));
     }
 
+    /* Retorna un string de caracteres alfanumericos de tamaño size */
+    static public String nextWord(int size)
+    {
+        char[] buffer = new char[size];
+        for(int i=0; i<size; i++)
+            buffer[i] = nextChar();
+        return new String(buffer);
+    }
 
    static public void main(String[] args)
     {
@@ -24,9 +33,7 @@ public class GeneradorPalabras {
             BufferedWriter bufferWriter = new BufferedWriter(fileWriter);
 
             for(int i=0; i<10; i++) {
-                for(int j=0; j<10; j++) {
-                    bufferWriter.write(nextChar());
-                }
+                bufferWriter.write(nextWord(10));
                 bufferWriter.newLine();
             }
             bufferWriter.close();
