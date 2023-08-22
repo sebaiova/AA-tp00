@@ -12,7 +12,6 @@ public class GeneradorNumerosSinRepetir {
         array[j] = temp;
     }
 
-    //Fisher-Yates
     private static void shuffleArray(int[] array) {
         Random random = new Random();
         for (int i = array.length - 1; i > 0; i--) {
@@ -21,6 +20,7 @@ public class GeneradorNumerosSinRepetir {
         }
     }
 
+    //Fisher-Yates
     static private int[] numerosSinRepetir(int cantidad)
     {
         int[] array = new int[cantidad];
